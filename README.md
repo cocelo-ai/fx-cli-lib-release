@@ -7,19 +7,19 @@ Release package for **ARM64 Ubuntu (py3.10/py3.11) support**.
 export lib_ver=1.0.1
 export py_ver=310
 
-git clone -b fx-cli_v${lib_ver}_py${py_ver}_arm64 git@github.com:cocelo-ai/fx-cli-lib-release.git
+git clone -b fx-cli_${lib_ver}_py${py_ver}_arm64 git@github.com:cocelo-ai/fx-cli-lib-release.git
 ```
 ## Install
 
 Download the `.deb` file from the **Assets** section, then install it with:
 
 ```bash
-sudo apt install ./fx-cli_1.0.1_py310_arm64.deb
+sudo apt install ./fx-cli_{lib_ver}_py{py_ver}_arm64.deb
 ```
 
 If apt install does not work in your environment, use:
 ```bash
-sudo dpkg -i fx-cli_1.0.1_py310_arm64.deb
+sudo dpkg -i fx-cli_{lib_ver}_py{py_ver}_arm64.deb
 sudo apt-get install -f
 ```
 
