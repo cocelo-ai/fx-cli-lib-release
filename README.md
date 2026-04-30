@@ -7,7 +7,7 @@ Release package for **ARM64 Ubuntu (py3.10/py3.11) support**.
 export lib_ver=1.0.1
 export py_ver=310
 
-git clone -b fx-cli_${lib_ver}_py${py_ver}_arm64 git@github.com:cocelo-ai/fx-cli-lib-release.git
+git clone -b fx-cli_v${lib_ver}_py${py_ver}_arm64 git@github.com:cocelo-ai/fx-cli-lib-release.git
 ```
 ## Install
 
