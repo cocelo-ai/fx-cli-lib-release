@@ -30,7 +30,7 @@ python3 -c "import fx_cli; print('fx_cli import success')"
 ```
 
 ## Notes
-- Target platform: ARM64 Ubuntu
+- Target platform: ARM64/AMD64 Ubuntu
 - Python requirement: Python 3.10 or Python 3.11
 - This package installs:
   - C++ library
