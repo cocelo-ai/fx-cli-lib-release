@@ -1,4 +1,4 @@
-# fx-cli v1.1.3
+# fx-cli v1.1.4
 
 Release package for **ARM64/AMD64 Ubuntu (py3.10/py3.11) support**.
 
