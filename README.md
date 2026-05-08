@@ -4,7 +4,7 @@ Release package for **ARM64/AMD64 Ubuntu (py3.10/py3.11) support**.
 
 ## Download
 ```bash
-export lib_ver=1.1.3
+export lib_ver=1.1.4
 export py_ver=$(python3 -c 'import sys; print(f"{sys.version_info.major}{sys.version_info.minor}")')
 export arch=$(dpkg --print-architecture)
 
