@@ -8,7 +8,7 @@ export lib_ver=1.2.0
 export py_ver=$(python3 -c 'import sys; print(f"{sys.version_info.major}{sys.version_info.minor}")')
 export arch=$(dpkg --print-architecture)
 
-git clone -b "fx-cli_v${lib_ver}_py${py_ver}_${arch}" git@github.com:cocelo-ai/fx-cli-lib-release.git
+git clone -b "v${lib_ver}_py${py_ver}_${arch}" git@github.com:cocelo-ai/fx-cli-lib-release.git
 ```
 ## Install
 
