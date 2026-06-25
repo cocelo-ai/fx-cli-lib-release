@@ -2,6 +2,11 @@
 
 **ARM64/AMD64 Ubuntu 환경에서 Python 3.10/3.11을 지원하는 릴리스 패키지입니다.**
 
+## Fx controller Dependency
+```
+<=v3.3.3
+```
+
 ## Download
 
 ```bash
